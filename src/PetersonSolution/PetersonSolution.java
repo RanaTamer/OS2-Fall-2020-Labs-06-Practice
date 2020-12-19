@@ -12,7 +12,7 @@ package PetersonSolution;
 public class PetersonSolution implements Runnable {
 
     private boolean[] flag;
-    private int turn;
+    private static volatile int turn = -1;
     private int count;
 
     public PetersonSolution(int count) {
