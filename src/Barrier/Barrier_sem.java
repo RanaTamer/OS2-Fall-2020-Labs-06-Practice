@@ -16,6 +16,7 @@ import java.util.logging.Logger;
 public class Barrier_sem extends Barrier{
     private final Semaphore mutex;
     private final Semaphore blockerSemaphore;
+    private final newThred[n];
     
     public Barrier_sem(int waitingCount){
         super(waitingCount);
